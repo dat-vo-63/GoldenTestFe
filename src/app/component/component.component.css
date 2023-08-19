@@ -1,0 +1,289 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.product-list{
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    box-shadow: 0 3.2px 2.2px rgba(0,0,0,.02), 0 7px 5.4px rgba(0,0,0,.028), 0 12.1px 10.1px rgba(0,0,0,.035), 0 19.8px 18.1px rgba(0,0,0,.042), 0 34.7px 33.8px rgba(0,0,0,.05), 0 81px 81px rgba(0,0,0,.07);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 28px;
+    position: relative;
+    margin-bottom: 20px;
+    position: relative;
+}
+.App_cardTop_3hHIG {
+    margin: 12px 0;
+    margin-top: 12px;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    position: relative;
+}
+.App_cardTopLogo_2ho9K {
+    display: block;
+    width: 50px;
+}
+.App_cardTitle_29nyq {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+    position: relative;
+}
+.App_cardTitleAmount_17QFR {
+    float: right;
+}
+.App_cartItemImage_1rLvq {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #eee;
+    margin-right: 34px;
+}
+.App_cartItemName_3he6M {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.App_cartItemCount_1GCCN {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+
+.App_cartItemRight_2LNcC {
+    flex: 1;
+}
+.App_cartItemName_3he6M {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.App_cartItemPrice_R0sr2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.App_cartItemCount_1GCCN {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product-list::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(246, 201, 14);
+    top: -20%;
+    left: -50%;
+    z-index: 0;
+    border-radius: 100%;
+}
+
+.cart{
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    box-shadow: 0 3.2px 2.2px rgba(0,0,0,.02), 0 7px 5.4px rgba(0,0,0,.028), 0 12.1px 10.1px rgba(0,0,0,.035), 0 19.8px 18.1px rgba(0,0,0,.042), 0 34.7px 33.8px rgba(0,0,0,.05), 0 81px 81px rgba(0,0,0,.07);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 28px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.App_cardBody_1tfYc::-webkit-scrollbar{
+    display: none;
+}
+
+.App_cartItemCountButton_Gr8VG {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 100%;
+    background-color: #eee;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.App_cartItemRemove_1GiLR {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: all .25s ease;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6c90e;
+    transition: .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.App_cartItemCount_1GCCN {
+    flex: 1;
+}
+.product-list::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #f6c90e;
+    top: -20%;
+    left: -50%;
+    z-index: -1;
+}
+.item-price{
+    font-size: 18px;
+    font-weight: 700;
+}
+.addBtn{
+    cursor: pointer;
+    background-color: #f6c90e;
+    font-weight: 700;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: auto;
+    height: 46px;
+    min-width: 46px;
+    padding: 16px 20px;
+    border-radius: 100px;
+    transition: all .25s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.product-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App_cartItem_lfA9I {
+    display: flex;
+    padding: 20px 0;
+}
+.App_cartItemLeft_1HqDk {
+    flex: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.App_cartItemImageBlock_wRE4E img {
+    display: block;
+    width: 140%;
+    transform: rotate(-28deg) translateY(-40px);
+    filter: drop-shadow(0 30px 20px rgba(0,0,0,.2));
+}
+.App_cartItemRight_2LNcC {
+    flex: 1;
+}
+.App_cartItemName_3he6M {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.App_cartItemPrice_R0sr2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.App_cartItemActions_13kia, .App_cartItemCount_1GCCN {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.App_cartItemCountNumber_1Evq9 {
+    font-size: 14px;
+    margin: 0 8px;
+    width: 20px;
+    text-align: center;
+}
+
+
+.App_cartItemRemove_1GiLR {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: all .25s ease;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6c90e;
+    transition: .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.App_cardBody_1tfYc {
+    height: calc(100% - 98px);
+    position: relative;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.App_shopItem_3FgVU:first-child {
+    padding-top: 0;
+}
+.App_shopItemImage_341iU {
+    border-radius: 30px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.App_shopItem_3FgVU {
+    padding: 40px 0;
+}
+.App_cardTop_3hHIG {
+    margin: 12px 0;
+    position: relative;
+}
+.App_shopItemDescription_1EIVK {
+    font-size: 13px;
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
